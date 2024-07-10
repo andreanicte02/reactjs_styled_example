@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {colorNavBar, colorTextNavBar} from "../../theme/theme.ts";
 
 export const NavBarContainer = styled.div`
-    height: 11.563rem ;
+    height: 185px ;
     display: flex;
     background-color: ${colorNavBar};
     align-items: center;
