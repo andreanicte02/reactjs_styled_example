@@ -11,10 +11,15 @@ export const NavBarContainer = styled.div`
     font-size: 32px;
     font-weight: 500;
     justify-content: center;
+    @media (max-width: 768px) { 
+        justify-content: flex-start;
+    }
 `;
 
 export const NavBarTextContainer = styled.div`
-  
+    @media (max-width: 768px) {
+        margin-left: 2.375rem;
+    }
 `;
 
 export const NavBarMenuContainer = styled.div`
