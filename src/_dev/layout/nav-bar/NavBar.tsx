@@ -2,6 +2,7 @@ import {NavBarContainer, NavBarTextContainer, NavBarMenuContainer} from "./NavBa
 
 export const NavBar = () => {
     return (
+
         <NavBarContainer>
             <NavBarTextContainer>
                 The Coffee Shop
@@ -9,7 +10,6 @@ export const NavBar = () => {
             <NavBarMenuContainer>
                 <img src={'./media/menu-icon.png'}/>
             </NavBarMenuContainer>
-
         </NavBarContainer>
     );
 };

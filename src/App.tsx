@@ -1,9 +1,9 @@
-import {NavBar} from "./_dev/layout/nav-bar/NavBar.tsx";
+import {Outlet} from "react-router-dom";
 
 function App() {
 
   return (
-      <NavBar/>
+      <Outlet/>
   )
 }
 
