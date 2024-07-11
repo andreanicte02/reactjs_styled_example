@@ -15,9 +15,13 @@ export const BaristaTransitionNextButton = styled.button`
     background-color: #222222;
     text-transform: uppercase;
     font-size: 19px;
-    color:white;
+    color: white;
     width: 145px;
     height: 41px;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #353535;
+    }
 `
