@@ -6,7 +6,7 @@ import {useState} from "react";
 import {ContinueMethod} from "./components/continue-method/ContinueMethod.tsx";
 import {stepperListQ2} from "../../_dev/utils/const.ts";
 import {Stepper} from "../../_dev/custom-components/stepper/Stepper.tsx";
-import {TextTitleContainer} from "../../_dev/custom-components/title/Title.styles.tsx";
+import {TextTitleContainer} from "../../_dev/custom-components/text/Text.styles.tsx";
 
 
 export const Q2 = () => {
@@ -15,7 +15,7 @@ export const Q2 = () => {
     return (
         <Q2Container>
             <Stepper list={stepperListQ2}/>
-            <TextTitleContainer $marginTop={"4rem"} $fontSize={'1.875rem'}>
+            <TextTitleContainer $marginTop={"4rem"} $fontSize={'1.875rem'} $marginBottom={"2.563rem"}>
                 How do you brew at home?
             </TextTitleContainer>
             <div>
