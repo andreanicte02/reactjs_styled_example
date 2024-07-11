@@ -20,6 +20,16 @@ export const stepperListQ2: IStepMock[] =[
     {num:6, status:'pending'}
 ]
 
+export const stepperListResults: IStepMock[] =[
+    {num:1, status:'view'},
+    {num:2, status:'view'},
+    {num:3, status:'view'},
+    {num:4, status:'view'},
+    {num:5, status:'view'},
+    {num:6, status:'view'}
+]
+
+
 export const brewMethodsQ2:BrewMethodsQ2[]=[
     {img:'/media/coffee-maker.png', text:'Coffee Maker', color:'#EEB426', rotate:-12, translateY:"52"},
     {img:'/media/french-press.png', text:'French Press', color:'#9CAF96' ,rotate:-8, translateY:"22"},
