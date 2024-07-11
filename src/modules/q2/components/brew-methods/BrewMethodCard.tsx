@@ -6,7 +6,7 @@ interface IBrewMethodCard {
 }
 export const BrewMethodCard = ({item}:IBrewMethodCard) => {
     return (
-        <BrewMethodCardContainer color={item.color} rotate={item.rotate}>
+        <BrewMethodCardContainer color={item.color} rotate={item.rotate} translate={item.translateY}>
             {item.text}
         </BrewMethodCardContainer>
     );

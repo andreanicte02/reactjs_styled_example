@@ -22,6 +22,7 @@ export const StepperContainer = styled.div`
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    margin-top: 2.188rem;
 `
 
 export const StepperTextTitleContainer = styled.div`

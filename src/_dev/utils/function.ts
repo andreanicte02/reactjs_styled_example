@@ -1,5 +1,5 @@
-export const methodsCardRotate =(index:number)=>{
-    const maxRotation = 12;
-    const step = (maxRotation * 2) / 7 ;//--7 is total items
-    return -maxRotation + step * index;
+export const getTranslateYBrewMethodsCards =(degree:number)=>{
+    const common =5
+    console.log( Math.abs(degree) * common)
+    return Math.abs(degree) * common
 }
