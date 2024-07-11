@@ -5,3 +5,5 @@ export const heightNavBar= 185
 export const colorTextNavBar='#FFFFFF'
 
 export const backgroundColorBaristaTransition = '#9CAF96'
+
+export const backgroundColorQ2 = 'beige'
