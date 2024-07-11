@@ -1,15 +1,13 @@
 import styled from "styled-components";
 
-interface ITabContainer {
-    $marginBottom?:string
-}
 
-export const TabContainer = styled.div<ITabContainer>`
+
+export const TabContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
-    margin-bottom: ${props=> props.$marginBottom};
+    margin-bottom: 2.813rem;
 `
 
 export const TabItemContainer = styled.div`
