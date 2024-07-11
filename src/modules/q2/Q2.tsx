@@ -3,8 +3,15 @@ import {Stepper} from "./components/stepper/Stepper.tsx";
 import {StepperTextTitleContainer} from "./components/stepper/Stepper.styles.tsx";
 import {BrewMethods} from "./components/brew-methods/BrewMethods.tsx";
 import {Footer} from "./components/footer/Footer.tsx";
+import {useEffect, useRef} from "react";
 
 export const Q2 = () => {
+    const bodyRef = useRef(document.body);
+
+    useEffect(() => {
+        bodyRef.current.style.backgroundColor = 'beige';
+    }, []);
+
     return (
 
         <Q2Container>

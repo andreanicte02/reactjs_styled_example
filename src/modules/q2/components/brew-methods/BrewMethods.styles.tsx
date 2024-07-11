@@ -6,7 +6,10 @@ export const BrewMethodsContainer = styled.div`
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 7.3rem;
+    margin-bottom: 10rem;
+    @media (max-width: 1230px) {
+        margin-bottom: 2.5rem;
+    }
 `
 
 
@@ -26,6 +29,7 @@ export const BrewMethodCardContainer= styled.div<IBrewMethodCardContainer>`
     transform: rotate(${props => props.rotate}deg) translateY(${props => props.translate}px);
     @media (max-width: 1230px) {
         transform: rotate(0deg) translateY(0px);
+        padding: 1rem;
     }
     text-align: center;
     display: flex;

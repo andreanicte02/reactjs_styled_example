@@ -8,7 +8,7 @@ export const Footer = () => {
     }
     return (
         <FooterContainer>
-            <FooterItemContainer onClick={onClickBack} width={"53"}>
+            <FooterItemContainer onClick={onClickBack} width={"53"} style={{marginLeft:10}}>
                 <div>
                     {'<'}
                 </div>
@@ -16,7 +16,7 @@ export const Footer = () => {
                     Back
                 </div>
             </FooterItemContainer>
-            <FooterItemContainer width={"141"}>
+            <FooterItemContainer width={"141"} style={{marginRight:10}}>
                 <div>
                     Why it matters
                 </div>
