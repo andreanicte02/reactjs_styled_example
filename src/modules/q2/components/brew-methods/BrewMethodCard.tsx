@@ -1,5 +1,5 @@
 import {BrewMethodsQ2} from "../../../../_dev/utils/const.ts";
-import {BrewMethodCardContainer} from "./BrewMethods.styles.tsx";
+import {BrewMethodCardContainer, BrewMethodImageCardContainer} from "./BrewMethods.styles.tsx";
 
 interface IBrewMethodCard {
     item: BrewMethodsQ2
@@ -7,7 +7,12 @@ interface IBrewMethodCard {
 export const BrewMethodCard = ({item}:IBrewMethodCard) => {
     return (
         <BrewMethodCardContainer color={item.color} rotate={item.rotate} translate={item.translateY}>
-            {item.text}
+            <BrewMethodImageCardContainer rotate={item.rotate}>
+                <img src={item.img}/>
+            </BrewMethodImageCardContainer>
+            <div>
+                {item.text}
+            </div>
         </BrewMethodCardContainer>
     );
 };

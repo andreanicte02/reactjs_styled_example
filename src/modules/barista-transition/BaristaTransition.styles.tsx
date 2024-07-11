@@ -21,7 +21,9 @@ export const BaristaTransitionNextButton = styled.button`
     border-radius: 2px;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease;
     &:hover {
         background-color: #353535;
+        transform: translateY(-2px)
     }
 `

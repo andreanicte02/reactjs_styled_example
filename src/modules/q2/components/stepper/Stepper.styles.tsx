@@ -31,4 +31,5 @@ export const StepperTextTitleContainer = styled.div`
     font-weight: 400;
     margin-top: 4rem;
     text-align: center;
+    margin-bottom: 2.563rem;
 `
