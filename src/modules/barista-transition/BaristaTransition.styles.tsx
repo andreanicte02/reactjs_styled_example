@@ -9,6 +9,7 @@ export const BaristaTransitionContainer = styled.div`
     flex-direction: column;
     font-size: 1.75rem;
     font-weight: 400;
+    margin-top: 30vh;
 `
 
 export const BaristaTransitionNextButton = styled.button`
