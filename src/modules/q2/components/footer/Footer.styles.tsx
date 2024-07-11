@@ -8,7 +8,6 @@ export const FooterContainer = styled.div`
     padding-bottom: 1rem;
 `
 
-
 interface IFooterItemContainer{
     width: string,
 }

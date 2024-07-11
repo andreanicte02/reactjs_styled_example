@@ -1,11 +1,14 @@
 import {brewMethodsQ2} from "../../../../_dev/utils/const.ts";
 import {BrewMethodCard} from "./BrewMethodCard.tsx";
 import {BrewMethodsContainer} from "./BrewMethods.styles.tsx";
-import {useState} from "react";
 
-export const BrewMethods = () => {
+interface IBrewMethods{
+    itemSelect: number
+    setItemSelect: (item:number) => void
+}
 
-    const [itemSelect, setItemSelect] = useState(-1);
+export const BrewMethods = ({itemSelect,setItemSelect}:IBrewMethods) => {
+
     return (
         <BrewMethodsContainer>
             {brewMethodsQ2.map((item,index)=>

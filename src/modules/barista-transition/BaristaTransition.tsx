@@ -1,7 +1,8 @@
-import {BaristaTransitionContainer, BaristaTransitionNextButton} from "./BaristaTransition.styles.tsx";
+import {BaristaTransitionContainer} from "./BaristaTransition.styles.tsx";
 import {useNavigate} from "react-router-dom";
 import {useColorBodyHook} from "../../_dev/hooks/useColorBodyHook.tsx";
 import {backgroundColorBaristaTransition} from "../../_dev/theme/theme.ts";
+import {NextButton} from "../../_dev/custom-components/NextButton.tsx";
 
 export const BaristaTransition = () => {
 
@@ -17,9 +18,9 @@ export const BaristaTransition = () => {
                 We’ll find coffee that’s on your level.
             </div>
             <div style={{marginTop:"1rem"}}>
-                <BaristaTransitionNextButton type="button" onClick={()=>navigate('/q2')} >
+                <NextButton type="button" onClick={()=>navigate('/q2')} >
                     Next
-                </BaristaTransitionNextButton>
+                </NextButton>
             </div>
         </BaristaTransitionContainer>
     );
