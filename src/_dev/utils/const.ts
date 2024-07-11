@@ -1,4 +1,4 @@
-export interface StepperListQ2{
+export interface IStepMock {
     num: number
     status: 'current'|'view'|'pending'
 }
@@ -11,7 +11,7 @@ export interface BrewMethodsQ2{
     translateY:string,
 }
 
-export const stepperListQ2: StepperListQ2[] =[
+export const stepperListQ2: IStepMock[] =[
     {num:1, status:'view'},
     {num:2, status:'current'},
     {num:3, status:'pending'},

@@ -1,8 +1,8 @@
-import {StepperListQ2} from "../../../../_dev/utils/const.ts";
+import {IStepMock} from "../../../../_dev/utils/const.ts";
 import {StepContainer} from "./Stepper.styles.tsx";
 
 interface IStep {
-    step: StepperListQ2
+    step: IStepMock
 }
 
 export const Step = ({step}: IStep) => {

@@ -1,10 +1,12 @@
 import {ContinueMethodContainer} from "./ContinueMethod.styles.tsx";
 import {NextButton} from "../../../../_dev/custom-components/NextButton.tsx";
+import {useNavigate} from "react-router-dom";
 
 export const ContinueMethod = () => {
+    const navigate = useNavigate();
     return (
         <ContinueMethodContainer>
-            <NextButton>Continue</NextButton>
+            <NextButton onClick={()=>navigate('/results')}>Continue</NextButton>
         </ContinueMethodContainer>
     );
 };

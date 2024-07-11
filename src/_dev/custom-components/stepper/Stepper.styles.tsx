@@ -23,12 +23,3 @@ export const StepperContainer = styled.div`
     gap: 2rem;
     justify-content: center;
 `
-
-export const StepperTextTitleContainer = styled.div`
-    text-transform: uppercase;
-    font-size:1.875rem;
-    font-weight: 400;
-    margin-top: 4rem;
-    text-align: center;
-    margin-bottom: 2.563rem;
-`

@@ -1,21 +1,22 @@
 import {Q2Container} from "./Q2.styles.ts";
-import {Stepper} from "./components/stepper/Stepper.tsx";
-import {StepperTextTitleContainer} from "./components/stepper/Stepper.styles.tsx";
 import {BrewMethods} from "./components/brew-methods/BrewMethods.tsx";
 import {Footer} from "./components/footer/Footer.tsx";
 import {useColorBodyHook} from "../../_dev/hooks/useColorBodyHook.tsx";
 import {useState} from "react";
 import {ContinueMethod} from "./components/continue-method/ContinueMethod.tsx";
+import {stepperListQ2} from "../../_dev/utils/const.ts";
+import {Stepper} from "../../_dev/custom-components/stepper/Stepper.tsx";
+import {TextTitleContainer} from "./components/title/Title.styles.tsx";
 
 export const Q2 = () => {
     useColorBodyHook('beige')
     const [itemSelect, setItemSelect] = useState(-1);
     return (
         <Q2Container>
-            <Stepper/>
-            <StepperTextTitleContainer>
+            <Stepper list={stepperListQ2}/>
+            <TextTitleContainer>
                 How do you brew at home?
-            </StepperTextTitleContainer>
+            </TextTitleContainer>
             <div>
                 <BrewMethods setItemSelect={setItemSelect} itemSelect={itemSelect} />
                 {itemSelect!==-1&&<ContinueMethod/>}
