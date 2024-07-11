@@ -1,14 +1,15 @@
 import {BaristaTransitionContainer, BaristaTransitionNextButton} from "./BaristaTransition.styles.tsx";
-import {useHeightBodyHook} from "../../_dev/hooks/useHeightBodyHook.tsx";
 import {useNavigate} from "react-router-dom";
+import {useColorBodyHook} from "../../_dev/hooks/useColorBodyHook.tsx";
+import {backgroundColorBaristaTransition} from "../../_dev/theme/theme.ts";
 
 export const BaristaTransition = () => {
 
-    const containerHeight = useHeightBodyHook();
     const navigate = useNavigate();
+    useColorBodyHook(backgroundColorBaristaTransition)
 
     return (
-        <BaristaTransitionContainer style={{height:containerHeight}} >
+        <BaristaTransitionContainer>
             <div>
                 <img src={'./media/transition-icon.png'}/>
             </div>

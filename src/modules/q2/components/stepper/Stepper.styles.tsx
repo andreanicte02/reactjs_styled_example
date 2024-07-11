@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface IStepContainer{
-    status: 'current'|'view'|'pending'
+    $status: 'current'|'view'|'pending'
 }
 
 export const StepContainer = styled.div<IStepContainer>`
@@ -12,9 +12,9 @@ export const StepContainer = styled.div<IStepContainer>`
     align-items: center;
     border-radius: 50%;
     border: 1.5px solid;
-    background-color: ${props => props.status==='current'?'#EEB426':props.status==='pending'?'white':'black'};
-    color: ${props => props.status==='current' || props.status==='view'?'white':'black'};
-    border-color: ${props => props.status ==="view"||props.status ==="pending"?'black':'#EEB426'};
+    background-color: ${props => props.$status==='current'?'#EEB426':props.$status==='pending'?'white':'black'};
+    color: ${props => props.$status==='current' || props.$status==='view'?'white':'black'};
+    border-color: ${props => props.$status ==="view"||props.$status ==="pending"?'black':'#EEB426'};
 `
 
 export const StepperContainer = styled.div`
@@ -22,7 +22,6 @@ export const StepperContainer = styled.div`
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin-top: 3.5rem;
 `
 
 export const StepperTextTitleContainer = styled.div`

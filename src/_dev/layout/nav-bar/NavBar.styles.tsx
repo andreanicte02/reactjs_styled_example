@@ -13,8 +13,10 @@ export const NavBarContainer = styled.div`
     @media (max-width: 768px) { 
         justify-content: flex-start;
     }
-    position: absolute;
+    position: sticky;
     width: 100vw;
+    z-index: 1000;
+    top: 0;
 `;
 
 export const NavBarTextContainer = styled.div`

@@ -7,7 +7,7 @@ interface IStep {
 
 export const Step = ({step}: IStep) => {
     return (
-        <StepContainer status={step.status}>
+        <StepContainer $status={step.status}>
             <div>
                 {step.num}
             </div>

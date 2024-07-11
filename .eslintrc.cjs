@@ -14,5 +14,25 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        args: 'none', // Permite no usar argumentos en las funciones
+        ignoreRestSiblings: true, // Ignora los hermanos restantes en desestructuraciones
+        varsIgnorePattern: '^_', // Ignora variables que comienzan con _
+        argsIgnorePattern: '^_', // Ignora argumentos que comienzan con _
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        args: 'none',
+        ignoreRestSiblings: true,
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+      },
+    ],
   },
 }
