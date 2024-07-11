@@ -5,7 +5,6 @@ export const useColorBodyHook = (color: string) => {
 
     useEffect(() => {
         bodyRef.current.style.backgroundColor = color;
-        console.log('hola')
         return () => {
             bodyRef.current.style.backgroundColor = '';
         };

@@ -14,7 +14,6 @@ export const BrewMethodsContainer = styled.div`
 
 
 interface IBrewMethodCardContainer {
-    color: string,
     rotate: number,
     translate: string
 }
@@ -25,7 +24,6 @@ export const BrewMethodCardContainer= styled.div<IBrewMethodCardContainer>`
     font-size: 11px;
     font-weight: 400;
     color: #222222;
-    background-color: ${props => props.color};
     transform: rotate(${props => props.rotate}deg) translateY(${props => props.translate}px);
     @media (max-width: 1230px) {
         transform: rotate(0deg) translateY(0px);
