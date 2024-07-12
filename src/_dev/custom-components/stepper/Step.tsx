@@ -1,5 +1,5 @@
+import {IStepMock} from "../../../../_dev/utils/const.ts";
 import {StepContainer} from "./Stepper.styles.tsx";
-import {IStepMock} from "../../utils/const.ts";
 
 interface IStep {
     step: IStepMock
