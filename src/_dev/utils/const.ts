@@ -39,3 +39,34 @@ export const brewMethodsQ2:BrewMethodsQ2[]=[
     {img:'/media/pods.png', text:'Pods', color:'#C47D30', rotate:8, translateY:"22"},
     {img:'/media/moka-pot.png', text:'Moka Pot', color:'#D2C6C3', rotate:12, translateY:"52"}
 ]
+
+export interface CoffeeDetail {
+    title: string;
+    description: string;
+    image: string;
+    border?: boolean
+}
+
+export const coffeeDetailList: CoffeeDetail[] = [
+    {
+        title: "Tasting Notes",
+        description: "Red Apple, Lemongrass, Malt Chocolate",
+        image: "media/results.png"
+    },
+    {
+        title: "Roast Level",
+        description: "Medium",
+        image: "media/results2.png"
+    },
+    {
+        title: "Sipping Style",
+        description: "Great with milk/cream",
+        image: "media/results3.png"
+    },
+    {
+        title: "Brew Method",
+        description: "Brews a delicious cup with a pour over",
+        image: "media/results4.png",
+        border:true
+    }
+];

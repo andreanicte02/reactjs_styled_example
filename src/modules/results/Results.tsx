@@ -4,6 +4,7 @@ import {Stepper} from "../../_dev/custom-components/stepper/Stepper.tsx";
 import {stepperListResults} from "../../_dev/utils/const.ts";
 import {TextContainer, TextTitleContainer} from "../../_dev/custom-components/text/Text.styles.tsx";
 import {Tab} from "./components/tab/Tab.tsx";
+import {TableResult} from "./components/table-resut/TableResult.tsx";
 
 export const Results = () => {
     useColorBodyHook('beige')
@@ -17,6 +18,7 @@ export const Results = () => {
                 Here’s what we recommend for your busy days, quiet moments, and upcoming adventures.
             </TextContainer>
             <Tab/>
+            <TableResult/>
         </ResultsContainer>
     );
 };
