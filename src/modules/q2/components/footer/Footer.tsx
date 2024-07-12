@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 export const Footer = () => {
     const navigate = useNavigate();
     const onClickBack = () => {
-        navigate('/carful_test')
+        navigate('/carful_test/')
     }
     return (
         <FooterContainer>
