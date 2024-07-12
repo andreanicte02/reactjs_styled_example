@@ -179,7 +179,7 @@ Error generating stack: `+o.message+`
     &:hover {
         transform: translateY(-2px)
     }
-`,Dv=()=>{const e=Eo(),t=()=>{e("/carful_test")};return C.jsxs(Mv,{children:[C.jsxs(Ha,{onClick:t,width:"53",style:{marginLeft:10},children:[C.jsx("div",{children:"<"}),C.jsx("div",{children:"Back"})]}),C.jsxs(Ha,{width:"141",style:{marginRight:10},children:[C.jsx("div",{children:"Why it matters"}),C.jsx("div",{children:"+"})]})]})},Fv=F.div`
+`,Dv=()=>{const e=Eo(),t=()=>{e("/carful_test/")};return C.jsxs(Mv,{children:[C.jsxs(Ha,{onClick:t,width:"53",style:{marginLeft:10},children:[C.jsx("div",{children:"<"}),C.jsx("div",{children:"Back"})]}),C.jsxs(Ha,{width:"141",style:{marginRight:10},children:[C.jsx("div",{children:"Why it matters"}),C.jsx("div",{children:"+"})]})]})},Fv=F.div`
     display: flex;
     justify-content: center;
 `,Av=()=>{const e=Eo();return C.jsx(Fv,{children:C.jsx(Ud,{onClick:()=>e("/carful_test/results"),children:"Continue"})})},Bv=F.div`
