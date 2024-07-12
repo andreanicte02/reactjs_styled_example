@@ -6,7 +6,7 @@ export const ContinueMethod = () => {
     const navigate = useNavigate();
     return (
         <ContinueMethodContainer>
-            <NextButton onClick={()=>navigate('/results')}>Continue</NextButton>
+            <NextButton onClick={()=>navigate('/carful_test/results')}>Continue</NextButton>
         </ContinueMethodContainer>
     );
 };

@@ -9,9 +9,9 @@ export const PublicRoute = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<MainLayout/>}>
-                    <Route path={'/*'} element={<BaristaTransition/>}/>
-                    <Route path={'/q2'} element={<Q2/>}/>
-                    <Route path={'/results'} element={<Results/>}/>
+                    <Route path={'/carful_test/*'} element={<BaristaTransition/>}/>
+                    <Route path={'/carful_test/q2'} element={<Q2/>}/>
+                    <Route path={'/carful_test/results'} element={<Results/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

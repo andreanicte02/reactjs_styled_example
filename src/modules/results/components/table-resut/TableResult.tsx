@@ -20,7 +20,7 @@ export const TableResult = () => {
                     >
                         best match
                     </TextTableContainer>
-                    <img src={'/media/product.png'} style={{paddingLeft:"1rem", paddingRight:'1rem'}}/>
+                    <img src={'media/product.png'} style={{paddingLeft:"1rem", paddingRight:'1rem'}}/>
                     <TextTableContainer
                         $fontSize={'20px'}
                         $color={'#222222'}

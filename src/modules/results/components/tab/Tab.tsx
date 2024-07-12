@@ -9,7 +9,7 @@ export const Tab = () => {
             <TabItemContainer>
                 Email my results
             </TabItemContainer>
-            <TabItemContainer onClick={()=>navigate("/q2")}>
+            <TabItemContainer onClick={()=>navigate("/carful_test/q2")}>
                 Retake the quiz
             </TabItemContainer>
         </TabContainer>

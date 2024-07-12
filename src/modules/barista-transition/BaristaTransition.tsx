@@ -18,7 +18,7 @@ export const BaristaTransition = () => {
                 We’ll find coffee that’s on your level.
             </div>
             <div style={{marginTop:"1rem"}}>
-                <NextButton type="button" onClick={()=>navigate('/q2')} >
+                <NextButton type="button" onClick={()=>navigate('/carful_test/q2')} >
                     Next
                 </NextButton>
             </div>
