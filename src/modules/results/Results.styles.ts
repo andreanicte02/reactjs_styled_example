@@ -8,4 +8,5 @@ export const ResultsContainer = styled.div`
     @media (max-width: 1230px) {
         margin-top: 5vh;
     }
+    padding-bottom: 2vh;
 `

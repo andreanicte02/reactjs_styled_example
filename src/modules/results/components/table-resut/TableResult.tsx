@@ -20,7 +20,7 @@ export const TableResult = () => {
                     >
                         best match
                     </TextTableContainer>
-                    <img src={'/media/product.png'}/>
+                    <img src={'/media/product.png'} style={{paddingLeft:"1rem", paddingRight:'1rem'}}/>
                     <TextTableContainer
                         $fontSize={'20px'}
                         $color={'#222222'}
@@ -44,6 +44,8 @@ export const TableResult = () => {
                             $textTransform={'uppercase'}
                             $fontSize={'12px'}
                             $color={'#222222'}
+                            $marginBottom={'1rem'}
+                            $marginLeft={'1rem'}
                         >
                             WHY YOU’LL LOVE IT
                         </TextTableContainer>
